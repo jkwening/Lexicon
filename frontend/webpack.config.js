@@ -2,7 +2,7 @@ module.exports = options => {
   return {
     entry: './src/index.js',
     output: {
-      filename: './src/bundle.js',
+      filename: './bundle.js',
     },
     module: {
       rules: [
