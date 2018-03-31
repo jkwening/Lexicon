@@ -5,6 +5,12 @@ env/
 .vscode/
 
 #######################################
+# general files
+#######################################
+*.log
+*.csv
+
+#######################################
 # frontend files
 #######################################
 frontend/node_modules/
@@ -12,7 +18,6 @@ frontend/node_modules/
 #######################################
 # backend files - django related files
 #######################################
-*.log
 *.pot
 *.pyc
 secrets.json
