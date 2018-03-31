@@ -1,5 +1,19 @@
+#######################################
+# root files
+#######################################
 env/
 .vscode/
+
+#######################################
+# frontend files
+#######################################
 frontend/node_modules/
-backend/backend/secrets.json
-backend/backend/__pycache__/
+
+#######################################
+# backend files - django related files
+#######################################
+*.log
+*.pot
+*.pyc
+secrets.json
+__pychache/
