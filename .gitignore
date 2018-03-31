@@ -1,4 +1,5 @@
 env/
 .vscode/
 frontend/node_modules/
-backend/configuration/secrets.json
+backend/backend/secrets.json
+backend/backend/__pycache__/
