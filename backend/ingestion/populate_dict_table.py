@@ -19,7 +19,8 @@ with open('./dictionary.csv', newline='') as csvfile:
   for row in dict_data:
     print(row)
     cur.execute("""
-      INSERT INTO dictionary VALUES (%s, %s, %s);
+      INSERT INTO api_dictionary (word, definition, part_of_speech)
+       VALUES (%s, %s, %s);
       """,
       (row[0], row[1], row[2])
     )
